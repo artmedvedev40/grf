@@ -1,0 +1,118 @@
+@font-face {
+  font-weight: 400;
+  font-family: ProximaNova-Regular;
+  src: url(font/ProximaNova-Regular.ttf);
+}
+@font-face {
+  font-weight: 600;
+  font-family: ProximaNova-Bold;
+  src: url(font/ProximaNova-Bold.ttf);
+}
+@font-face {
+  font-weight: 700;
+  font-family: ProximaNova-Black;
+  src: url(font/ProximaNova-Black.ttf);
+}
+body {
+  background: radial-gradient(circle, #232323, #212121, #202020, #1e1e1e, #1d1d1d);
+  align-content: center;
+}
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  align-items: center;
+  font-family: ProximaNova-Bold;
+}
+nav ul li {
+  display: inline;
+  margin-right: 2px;
+  align-content: center;
+  align-items: center;
+  font-family: ProximaNova-Bold;
+}
+.pic_button {
+  color: #fff;
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  margin-right: 45px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  width: 200px;
+  height: 20px;
+  color: #fff;
+  transition: all 0.8s ease 0s;
+  text-align: center
+}
+.button:hover {
+  color: #00f58f;
+ }
+.container {
+  display: flex;
+  background-color: #00f58f;
+  color: #232323;
+  border-radius: 20px;
+}
+.container h2 {
+  font-family: ProximaNova-Black;
+  color: #232323;
+  font-size: 35pt;
+}
+.container p {
+  font-family: ProximaNova-Regular;
+  color: #232323;
+  font-size: 21pt;
+}
+.image-container {
+  margin-right: 20px;
+}
+.row {
+  display: flex;
+}
+.row img {
+  width: 200px; 
+  height: 200px;  
+  margin-right: 10px;
+}
+.i1 {
+  border-top-left-radius: 20px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+.i2 {
+  border-top-right-radius: 20px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+.i3 {
+  border-bottom-left-radius: 20px;
+  display: block;
+  position: relative;
+}
+.i4 {
+  border-bottom-right-radius: 20px;
+  display: block;
+  position: relative;
+}
+footer {
+  background-image: linear-gradient(to left, #00b2f0, #00c7f5, #00dae5, #00e9c1, #00f58f);
+  color: #232323;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: ProximaNova-Black; 
+}
