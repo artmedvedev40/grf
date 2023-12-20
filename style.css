@@ -1,0 +1,243 @@
+@font-face {
+  font-weight: 400;
+  font-family: ProximaNova-Regular;
+  src: url(font/ProximaNova-Regular.ttf);
+}
+@font-face {
+  font-weight: 600;
+  font-family: ProximaNova-Bold;
+  src: url(font/ProximaNova-Bold.ttf);
+}
+@font-face {
+  font-weight: 700;
+  font-family: ProximaNova-Black;
+  src: url(font/ProximaNova-Black.ttf);
+}
+body {
+  background: radial-gradient(circle, #232323, #212121, #202020, #1e1e1e, #1d1d1d);
+  align-content: center;
+  padding-bottom: 200px;
+}
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+  align-items: center;
+  font-family: ProximaNova-Bold;
+}
+nav ul li {
+  display: inline;
+  margin-right: 2px;
+  align-content: center;
+  align-items: center;
+  font-family: ProximaNova-Bold;
+}
+.pic_button {
+  color: #fff;
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  margin-right: 45px;
+}
+.button {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  width: 200px;
+  height: 20px;
+  color: #fff;
+  transition: all 0.8s ease 0s;
+  text-align: center
+}
+.button:hover {
+  color: #00f58f;
+ }
+ .container {
+  display: flex;
+  background-color: #00f58f;
+  color: #232323;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+.container h2 {
+  font-family: ProximaNova-Black;
+  color: #232323;
+  font-size: 35pt;
+}
+.container p {
+  font-family: ProximaNova-Regular;
+  color: #232323;
+  font-size: 21pt;
+}
+.image-container {
+  margin-right: 20px;
+}
+.row {
+  display: flex;
+}
+.row img {
+  width: 200px; 
+  height: 200px;  
+  margin-right: 10px;
+}
+.i1 {
+  border-top-left-radius: 20px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+.i2 {
+  border-top-right-radius: 20px;
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+.i3 {
+  border-bottom-left-radius: 20px;
+  display: block;
+  position: relative;
+}
+.i4 {
+  border-bottom-right-radius: 20px;
+  display: block;
+  position: relative;
+}
+footer {
+  background-image: linear-gradient(to left, #00b2f0, #00c7f5, #00dae5, #00e9c1, #00f58f);
+  color: #232323;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: ProximaNova-Black; 
+  height: 50px;
+}
+.main_news {
+  color: #232323;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #00f58f;
+  display: flex;
+}
+.main_news img {
+  width: 500px;
+  border-radius: 20px;
+  position: left;
+  margin-right: 6px;
+}
+.mn_text {
+  flex-direction: column;
+  margin: 0;
+  justify-content: center;
+}
+.main_news h2 {
+  font-family: ProximaNova-Bold;
+  margin: 0;
+  font-size: 30pt;
+}
+.main_news p {
+  font-family: ProximaNova-Regular;
+  font-size: 19pt;
+  margin: 0;
+}
+.news_list {
+  font-family: ProximaNova-Regular;
+  text-align: center;
+  align-content: center;
+  font-size: 25pt;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #fff;
+}
+.news_list p {
+  background-color: #383838;
+  margin-bottom: 1px;
+  width: 95%;
+  border-radius: 35px;
+}
+.news_list p:hover {
+  color: #00f58f;
+}
+
+.teamstand {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: ProximaNova-Regular;
+  font-size: 35px;
+  color: #fff;
+  background-color: #383838;
+}
+.teamstand th, td {
+  border: 1px solid #00f58f;
+  padding: 8px;
+  text-align: left;
+}
+.teamstand  th {
+  background-color: #00f58f;
+  color: #232323;
+}
+.teamstand td {
+  border-radius: 4px;
+}
+.teamstable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: ProximaNova-Regular;
+  font-size: 35px;
+  color: #fff;
+  background-color: #383838;
+}
+.teamstable th, td {
+  padding: 8px;
+  text-align: left;
+}
+.teamstable th {
+  color: #232323;
+}
+.first {
+  background-color: #00f58f;
+}
+.rb {
+  background-color: #3671C6;
+}
+.merc {
+  background-color: #6CD3BF;
+}
+.fer {
+  background-color: #F91536;
+}
+.mcl {
+  background-color: #F58020;
+}
+.amr {
+  background-color: #358C75;
+}
+.alp {
+  background-color: #2293D1;
+}
+.wil {
+  background-color: #37BEDD;
+}
+.atr {
+  background-color: #5E8FAA;
+}
+.sau {
+  background-color: #C92D4B;
+}
+.has {
+  background-color: #B6BABD;
+}
